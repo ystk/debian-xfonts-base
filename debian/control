@@ -1,0 +1,18 @@
+Source: xfonts-base
+Section: fonts
+Priority: optional
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: David Nusinow <dnusinow@debian.org>, Julien Cristau <jcristau@debian.org>
+Build-Depends: debhelper (>= 5)
+Build-Depends-Indep: pkg-config, xfonts-utils (>= 1:7.5)
+Standards-Version: 3.8.3
+
+Package: xfonts-base
+Architecture: all
+Depends: ${misc:Depends}
+Replaces: xfonts-misc
+Suggests: xfs | xserver
+Description: standard fonts for X
+ xfonts-base provides a standard set of low-resolution bitmapped fonts.  In
+ most cases it is desirable to have the X font server (xfs) and/or an X server
+ installed to make the fonts available to X clients.
