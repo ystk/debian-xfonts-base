@@ -2,9 +2,13 @@ Source: xfonts-base
 Section: fonts
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: David Nusinow <dnusinow@debian.org>, Julien Cristau <jcristau@debian.org>
-Build-Depends: debhelper (>= 5)
-Build-Depends-Indep: pkg-config, xfonts-utils (>= 1:7.5)
+Uploaders: David Nusinow <dnusinow@debian.org>, Cyril Brulebois <kibi@debian.org>
+Build-Depends:
+ debhelper (>= 5),
+Build-Depends-Indep:
+ pkg-config,
+ xfonts-utils (>= 1:7.5),
+ xutils-dev (>= 1:7.5+4),
 Standards-Version: 3.8.3
 
 Package: xfonts-base

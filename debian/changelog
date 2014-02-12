@@ -1,3 +1,33 @@
+xfonts-base (1:1.0.3) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
+    good reason.  Thanks, Colin Watson!
+  * Remove myself from Uploaders
+  * New upstream releases (X11R7.6):
+    - font-arabic-misc 1.0.3
+    - font-cursor-misc 1.0.3
+    - font-daewoo-misc 1.0.3
+    - font-dec-misc 1.0.3
+    - font-isas-misc 1.0.3
+    - font-jis-misc 1.0.3
+    - font-micro-misc 1.0.3
+    - font-misc-misc 1.0.3
+    - font-mutt-misc 1.0.3
+    - font-schumacher-misc 1.1.2
+    - font-sony-misc 1.0.3
+    - font-sun-misc 1.0.3
+      + update debian/copyright from upstream COPYING
+
+  [ Cyril Brulebois ]
+  * font-misc-misc 1.0.2 fixes an off-by-one error in U+FFE1 through
+    U+FFE6 range (Closes: #252045).
+  * Add myself to Uploaders.
+  * Wrap build-deps.
+  * Add xutils-dev build-dep for new macros.
+
+ -- Cyril Brulebois <kibi@debian.org>  Tue, 16 Nov 2010 22:29:41 +0100
+
 xfonts-base (1:1.0.1) unstable; urgency=low
 
   [ David Nusinow ]

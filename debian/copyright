@@ -1,18 +1,18 @@
 Source package: xfonts-base
 Obtained from:
     http://xorg.freedesktop.org/releases/individual/font/
-        font-arabic-misc-X11R7.0-1.0.0
-        font-cursor-misc-X11R7.0-1.0.0
-        font-daewoo-misc-X11R7.0-1.0.0
-        font-dec-misc-X11R7.0-1.0.0
-        font-isas-misc-X11R7.0-1.0.0
-        font-jis-misc-X11R7.0-1.0.0
-        font-micro-misc-X11R7.0-1.0.0
-        font-misc-misc-X11R7.0-1.0.0
-        font-mutt-misc-X11R7.0-1.0.0
-        font-schumacher-misc-X11R7.0-1.0.0
-        font-sony-misc-X11R7.0-1.0.0
-        font-sun-misc-X11R7.0-1.0.0
+        font-arabic-misc
+        font-cursor-misc
+        font-daewoo-misc
+        font-dec-misc
+        font-isas-misc
+        font-jis-misc
+        font-micro-misc
+        font-misc-misc
+        font-mutt-misc
+        font-schumacher-misc
+        font-sony-misc
+        font-sun-misc
 Upstream author(s):
     various; see copyright notices below
 Debian package author(s):
@@ -51,7 +51,7 @@ found in this Debian package bear the following copyright and license terms:
 
 Upstream copyright(s)/licence(s):
 
-font-arabic-misc-X11R7.0-1.0.0/COPYING:
+font-arabic-misc/COPYING:
     Copyright 1996, 1997, 1998, 1999 Computing Research Labs, New Mexico State
     University
 
@@ -73,13 +73,13 @@ font-arabic-misc-X11R7.0-1.0.0/COPYING:
     OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
     USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-font-cursor-misc-X11R7.0-1.0.0/COPYING:
+font-cursor-misc/COPYING:
     "These ""glyphs"" are unencumbered"
 
-font-daewoo-misc-X11R7.0-1.0.0/COPYING:
+font-daewoo-misc/COPYING:
     "Copyright (c) 1987, 1988 Daewoo Electronics Co.,Ltd."
 
-font-dec-misc-X11R7.0-1.0.0/COPYING:
+font-dec-misc/COPYING:
     "Copyright (c) Digital Equipment Corporation,1988. All rights reserved"
 
     Permission to use, copy, modify, and distribute this software and its
@@ -100,7 +100,7 @@ font-dec-misc-X11R7.0-1.0.0/COPYING:
     OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
     PERFORMANCE OF THIS SOFTWARE.
 
-font-isas-misc-X11R7.0-1.0.0/COPYING:
+font-isas-misc/COPYING:
     Copyright (C) 1988  The Institute of Software, Academia Sinica.
 
     Correspondence Address:  P.O.Box 8718, Beijing, China 100080.
@@ -124,18 +124,18 @@ font-isas-misc-X11R7.0-1.0.0/COPYING:
     OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
     CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-font-jis-misc-X11R7.0-1.0.0/COPYING:
+font-jis-misc/COPYING:
     from Japanese Industrial Standard, JIS X 9051-1984
     named "16-dots Matrix Character Patterns for Display Devices"
     "from JIS X 9051-1984, by permission to use"
 
-font-micro-misc-X11R7.0-1.0.0/COPYING:
+font-micro-misc/COPYING:
     "Public domain font.  Share and enjoy."
 
-font-misc-misc-X11R7.0-1.0.0/COPYING:
+font-misc-misc/COPYING:
     "Public domain font.  Share and enjoy."
 
-font-mutt-misc-X11R7.0-1.0.0/COPYING:
+font-mutt-misc/COPYING:
     Copyright 2002 Computing Research Labs, New Mexico State University
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -156,7 +156,7 @@ font-mutt-misc-X11R7.0-1.0.0/COPYING:
     OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
     USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-font-schumacher-misc-X11R7.0-1.0.0/COPYING:
+font-schumacher-misc/COPYING:
     Copyright 1989 Dale Schumacher, dal@syntel.mn.org
                    399 Beacon Ave.
                    St. Paul, MN  55104-3527
@@ -171,7 +171,7 @@ font-schumacher-misc-X11R7.0-1.0.0/COPYING:
     representations about the suitability of this software for any purpose.  It
     is provided "as is" without express or implied warranty.
 
-font-sony-misc-X11R7.0-1.0.0/COPYING:
+font-sony-misc/COPYING:
     Copyright 1989 by Sony Corp.
 
     Permission to use, copy, modify, and distribute this software and its
@@ -191,26 +191,26 @@ font-sony-misc-X11R7.0-1.0.0/COPYING:
     OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
     CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
-font-sun-misc-X11R7.0-1.0.0/COPYING:
-    Copyright 1989 by Sun Microsystems, Inc. Mountain View, CA.
+font-sun-misc/COPYING:
+    Copyright (c) 1989, Oracle and/or its affiliates. All rights reserved.
 
-    Permission to use, copy, modify, and distribute this software and
-    its documentation for any purpose and without fee is hereby granted,
-    provided that the above copyright notices appear in all copies and
-    that both those copyright notices and this permission notice appear
-    in supporting documentation, and that the name of Sun Microsystems
-    not be used in advertising or publicity pertaining to distribution
-    of the software without specific, written prior permission.  Sun
-    Microsystems make no representations about the suitability of this
-    software for any purpose.  It is provided "as is" without express or
-    implied warranty.
+    Permission is hereby granted, free of charge, to any person obtaining a
+    copy of this software and associated documentation files (the "Software"),
+    to deal in the Software without restriction, including without limitation
+    the rights to use, copy, modify, merge, publish, distribute, sublicense,
+    and/or sell copies of the Software, and to permit persons to whom the
+    Software is furnished to do so, subject to the following conditions:
 
-    SUN MICROSYSTEMS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS
-    SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
-    FITNESS, IN NO EVENT SHALL SUN MICROSYSTEMS BE LIABLE FOR ANY
-    SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER
-    RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF
-    CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-    CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+    The above copyright notice and this permission notice (including the next
+    paragraph) shall be included in all copies or substantial portions of the
+    Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+    THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+    DEALINGS IN THE SOFTWARE.
 
 vim:set ai et sw=4 ts=4 tw=80:

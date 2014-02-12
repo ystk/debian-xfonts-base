@@ -46,14 +46,14 @@ else
 endif
 
 $(STAMP_DIR)/build-%:
-	mkdir -p $*-obj-$(DEB_BUILD_GNU_TYPE)
-	cd $*-obj-$(DEB_BUILD_GNU_TYPE) && \
+	mkdir -p $*-build
+	cd $*-build && \
 	../$*/configure \
 		--prefix=/usr \
 		--mandir=\$${prefix}/share/man \
 		--infodir=\$${prefix}/share/info \
 		$(confflags)
-	$(MAKE) -C $*-obj-$(DEB_BUILD_GNU_TYPE)
+	$(MAKE) -C $*-build
 	>$@
 		
 
@@ -70,7 +70,7 @@ clean: xsfclean
 	rm -f */config.cache */config.log */config.status
 	rm -f conftest* */conftest*
 	rm -rf autom4te.cache */autom4te.cache
-	rm -rf *-obj-*
+	rm -rf *-build
 
 	dh_clean
 
@@ -80,7 +80,7 @@ install: build
 	dh_clean -k
 	dh_installdirs
 	for FILE in $(SUBDIRS); do \
-		cd "$$FILE"-obj-$(DEB_BUILD_GNU_TYPE) \
+		cd "$$FILE"-build \
 			&& $(MAKE) DESTDIR=$(CURDIR)/debian/tmp install; \
 		cd ..; \
 	done
